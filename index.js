@@ -13,8 +13,8 @@ const record = [
 function superbowlWin(Array){
   
   for (let i=0;i<Array.length;i++){
-    if (Array.find(el => el.result ==="W")){
-      Array[i].year
+    if (Array[i].result ==="W")){
+      return Array[i].year
     }
   }
 }
