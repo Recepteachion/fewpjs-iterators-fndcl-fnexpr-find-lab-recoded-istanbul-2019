@@ -12,6 +12,9 @@ const record = [
 
 function superbowlWin(Array){
   
-  let a = Array.find(el => el.result === "W")
-  return a.year
+  for (let i=0;i<Array.length;i++){
+    if (Array.find(el => el.result ==="W")){
+      Array[i].year
+    }
+  }
 }
